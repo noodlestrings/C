@@ -32,7 +32,7 @@ void get_data(int *lens){
 	while(i<100){
 
 		// if end of sentence, add the last length and break
-		if (inp[i]==NULL){
+		if (inp[i]=='\0'){ // the char '\0' represents null
 			lens[lenCounter]++;
 			break;
 		}
