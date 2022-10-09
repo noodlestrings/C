@@ -5,7 +5,8 @@
 //NOTE the given value here sets the length of lens
 //so the max length is actually 10 if set to 11, e.g.
 const int maxWordLength = 11;
-// you can predefine functions if you want but not necessary
+// this is implicitly global
+
 void set_max(int *arr);
 
 void set_max(int *arr){
