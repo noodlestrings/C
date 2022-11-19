@@ -10,7 +10,7 @@ void printArr(int arr[], int len){
 
 int main(){
 
-	const int NUMLEN = 10;
+	const int NUMLEN = 10; // have to make constant for use as array len specifier
 	int nums[NUMLEN] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 	int numsCpy[NUMLEN];
 
