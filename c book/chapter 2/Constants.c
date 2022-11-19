@@ -23,10 +23,10 @@ int main()
 
     char a = 'a';
     printf("%c", a);
-    a++;
+    ++a;
     printf("%c\n", a);
 
-    printf("%c\n", INCREMENT(a));
+    printf("%c\n\a", INCREMENT(a));
 
     return 0;
 }
