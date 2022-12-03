@@ -1,3 +1,6 @@
 *
 !*.c
 !/c\ book
+!/c\ book/chapter\ 1
+!/c\ book/chapter\ 2
+!/c\ book/chapter\ 3
